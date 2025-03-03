@@ -1,42 +1,45 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@font-face {
+  font-family: Bold;
+  src: url(./fonts/OpenSans-Bold.woff);
+}
+@font-face {
+  font-family: Italic;
+  src: url(./fonts/OpenSans-Italic.woff);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+@font-face {
+  font-family: Light;
+  src: url(./fonts/OpenSans-Light.woff);
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+@font-face {
+  font-family: Regular;
+  src: url(./fonts/OpenSans-Regular.woff);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: SemiBold;
+  src: url(./fonts/OpenSans-SemiBold.woff);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+p {
+  font-family: "Regular";
+  color: #fff;
 }
-
-.card {
-  padding: 2em;
+h1 {
+  font-family: "Bold";
+  color: #fff;
 }
-
-.read-the-docs {
-  color: #888;
+h3 {
+  color: #fff;
+}
+h2 {
+  font-family: "Bold";
+  color: #fff;
+}
+a {
+  color: #fff;
+}
+.bgimg {
+  background-image: url(./images/Gradient.png);
+  background-repeat: no-repeat;
+  border-radius: 100%;
 }
