@@ -19,6 +19,9 @@
   font-family: SemiBold;
   src: url(./fonts/OpenSans-SemiBold.woff);
 }
+body {
+  background-color: #120229;
+}
 
 p {
   font-family: "Regular";
@@ -29,7 +32,10 @@ h1 {
   color: #fff;
 }
 h3 {
+  font-size: 30px;
   color: #fff;
+  font-family: Semibold;
+  font-weight: 500;
 }
 h2 {
   font-family: "Bold";
@@ -41,5 +47,17 @@ a {
 .bgimg {
   background-image: url(./images/Gradient.png);
   background-repeat: no-repeat;
-  border-radius: 100%;
+  border-radius: 35%;
+}
+
+.span {
+  font-family: Italic;
+}
+.experience {
+  background-image: url(./images/Gradient.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.shadow {
+  box-shadow: 1px 3px 5px 7px #2c1250;
 }
