@@ -34,7 +34,7 @@ function Experience() {
                 Take your client onboard seamlessly by our amazing tool of
                 digital onboard process.
               </p>
-              <button className="bg-[#2C1250] border-[2px] border-[#7e3cdc] border-solid pt-[8px]   pb-[8px]  pr-[20px]  pl-[20px]  rounded-[10px] cursor-pointer text-[white]">
+              <button className="bg-[#2C1250] border-[2px] border-[#7e3cdc] border-solid pt-[8px] text-[12px]   pb-[8px]  pr-[30px]  pl-[30px]  rounded-[10px] cursor-pointer text-[white]">
                 LEARN MORE
               </button>
             </div>

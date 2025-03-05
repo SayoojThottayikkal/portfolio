@@ -32,7 +32,7 @@ h1 {
   color: #fff;
 }
 h3 {
-  font-size: 30px;
+  font-size: 24px;
   color: #fff;
   font-family: Semibold;
   font-weight: 500;
@@ -57,7 +57,22 @@ a {
   background-image: url(./images/Gradient.png);
   background-repeat: no-repeat;
   background-position: center;
+  width: 100%;
 }
 .shadow {
   box-shadow: 1px 3px 5px 7px #2c1250;
+}
+.bgskill {
+  background-image: url(./images/Ellipse.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 100%;
+  width: 100%;
+}
+.skill {
+  background-image: url(./images/skill.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
 }
