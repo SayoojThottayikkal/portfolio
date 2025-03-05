@@ -14,8 +14,8 @@ import vector30 from "../images/Vector 30.png";
 
 function Skill() {
   return (
-    <div className="h-[100vh] wrapper flex flex-col align-middle justify-around skill  ">
-      <div className="mb-[30px] p-[20px]">
+    <div className="h-[100vh] wrapper flex flex-col align-middle justify-around skill p-[30px] ">
+      <div className="p-[20px]">
         <h1 className="text-center text-[30px] ">
           I'm currently looking to join a{" "}
           <span className="text-[#a471e1] font-semibold">cross-functional</span>
@@ -53,18 +53,18 @@ function Skill() {
         ))}
       </div>
 
-      <div className="flex flex-row justify-center align-middle relative  h-[38%]">
-        <img src={vector28} alt="" className="absolute left-[520px]" />
-        <img src={vector29} alt="" className="absolute left-[590px]" />
-        <img src={vector30} alt="" className="absolute left-[660px]" />
-        <img src={vector27} alt="" className="absolute left-[700px]" />
-        <img src={vector26} alt="" className="absolute left-[740px]" />
-        <img src={vector25} alt="" className="absolute left-[760px]" />
+      <div className="flex flex-row justify-center align-middle relative  h-[25%]">
+        <img src={vector28} alt="" className="absolute left-[36%]" />
+        <img src={vector29} alt="" className="absolute left-[41%]" />
+        <img src={vector30} alt="" className="absolute left-[47%]" />
+        <img src={vector27} alt="" className="absolute left-[50%]" />
+        <img src={vector26} alt="" className="absolute left-[53%]" />
+        <img src={vector25} alt="" className="absolute left-[55%]" />
       </div>
 
-      <div className=" text-[white]  h-[200px] ">
+      <div className=" text-[white]  h-[50%] ">
         <div className="bgskill flex justify-center align-middle  relative">
-          <span className=" text-[150px] absolute top-[-7%] ">Ƨ</span>
+          <span className=" text-[150px] absolute top-[4%] ">Ƨ</span>
         </div>
       </div>
     </div>
