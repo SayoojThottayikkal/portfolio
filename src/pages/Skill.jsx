@@ -13,21 +13,7 @@ import vector29 from "../images/Vector 29.png";
 import vector30 from "../images/Vector 30.png";
 
 function Skill() {
-  return (
-    <div className="h-[100vh] wrapper flex flex-col align-middle justify-around skill p-[30px] ">
-      <div className="p-[20px]">
-        <h1 className="text-center text-[30px] ">
-          I'm currently looking to join a{" "}
-          <span className="text-[#a471e1] font-semibold">cross-functional</span>
-          team
-        </h1>
-        <p className="text-center">
-          that values improving people's lives through accessible design
-        </p>
-      </div>
-
-      <div className="flex justify-center gap-[50px] align-middle] relative">
-        {[
+  const imageData =[
           {
             image: img1,
           },
@@ -46,7 +32,22 @@ function Skill() {
           {
             image: img7,
           },
-        ].map((item) => (
+        ]
+  return (
+    <div className="h-[100vh] wrapper flex flex-col align-middle justify-around skill p-[30px] ">
+      <div className="p-[20px]">
+        <h1 className="text-center text-[30px] ">
+          I'm currently looking to join a{" "}
+          <span className="text-[#a471e1] font-semibold">cross-functional</span>
+          team
+        </h1>
+        <p className="text-center">
+          that values improving people's lives through accessible design
+        </p>
+      </div>
+
+      <div className="flex justify-center gap-[50px] align-middle] relative">
+        {imageData.map((item) => (
           <a href="">
             <img src={item.image} alt="compay image" />
           </a>
