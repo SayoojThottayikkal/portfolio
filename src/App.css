@@ -21,6 +21,8 @@
 }
 body {
   background-color: #120229;
+  color: #fff;
+  padding: 20px;
 }
 
 p {
@@ -30,6 +32,8 @@ p {
 h1 {
   font-family: "Bold";
   color: #fff;
+  font-size: 35px;
+  font-weight: bold;
 }
 h3 {
   font-size: 24px;
@@ -41,13 +45,14 @@ h2 {
   font-family: "Bold";
   color: #fff;
 }
+
 a {
   color: #fff;
 }
 .bgimg {
   background-image: url(./images/Gradient.png);
   background-repeat: no-repeat;
-  border-radius: 35%;
+  border-radius: 50%;
 }
 
 .span {
@@ -60,7 +65,7 @@ a {
   width: 100%;
 }
 .shadow {
-  box-shadow: 1px 3px 5px 7px #2c1250;
+  box-shadow: 2px 3px 2px 5px #2c1250;
 }
 .bgskill {
   background-image: url(./images/Ellipse.png);
@@ -75,4 +80,17 @@ a {
   background-repeat: no-repeat;
   background-position: bottom;
   width: 100%;
+}
+.bgprojectp {
+  background-image: url(./images/project1.png);
+  border-radius: 10px;
+}
+.bgprojectp2 {
+  background-image: url(./images/Rectangleopp.png);
+  border-radius: 10px;
+}
+.bgimagegradient {
+  background-image: url(./images/Gradient.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }

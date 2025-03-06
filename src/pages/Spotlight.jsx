@@ -3,6 +3,7 @@ import "tailwindcss";
 import myimg from "../images/img.jpg";
 import vector from "../images/Vector.png";
 import { motion } from "framer-motion";
+import ellips from "../images/Ellipse5.png";
 
 function Spotlight() {
   return (
@@ -15,7 +16,7 @@ function Spotlight() {
           className=" w-[20%]  p-15  block bgimg  flex align-middle  justify-center"
         >
           <img
-            className="h-[100%] w-[100%] rounded-[30%] block"
+            className="h-[100%] w-[100%] rounded-[50%] block"
             src={myimg}
             alt="profile photo"
           />
@@ -39,7 +40,15 @@ function Spotlight() {
             className="font-bold text-[40px] w-[60%] "
           >
             Judges a book by its{" "}
-            <span className="text-[#520ab0] span ">cover...</span>
+            <span className="text-[#520ab0] span relative p-[3px]">
+              <img
+                className="absolute top-[5%] left-[-3%] w-[100%] h-[100%]"
+                src={ellips}
+                alt=""
+              />
+              cover{" "}
+            </span>
+            ...
           </motion.h1>
           <p className="text-[10px]">
             Because if the cover does not impress you what else can?
