@@ -73,6 +73,6 @@ a {
 .skill {
   background-image: url(./images/skill.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   width: 100%;
 }
