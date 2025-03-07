@@ -30,7 +30,7 @@ function Experience() {
             </div>
             <div className="">
               <h3>CIB on the Mobile </h3>
-              <p className="text-[14px] mb-[10px] w-[80%]">
+              <p className="text-[12px] mb-[10px] w-[80%]">
                 Take your client onboard seamlessly by our amazing tool of
                 digital onboard process.
               </p>

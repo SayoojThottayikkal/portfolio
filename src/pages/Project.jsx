@@ -9,7 +9,7 @@ function Project() {
     <div className="h-[200vh] flex flex-col justify-evenly align-middle bgimagegradient  ">
       <div className=" flex justify-center align-middle p-[20px] ">
         <div className="w-[50%] z-[2]">
-          <h5 className="text-[#520ab0] text-[20px] text-bold ">
+          <h5 className="text-[#a471e1] text-[20px] text-bold ">
             Featured Project
           </h5>
           <h1>Example Project</h1>
@@ -34,8 +34,8 @@ function Project() {
         <div className="bgimagegradient  bgimagegradient relative right-[-5%]   ">
           <img src={project3} alt="" className="rounded-t-[20px] " />
         </div>
-        <div className="w-[50%] z-[2] text-right">
-          <h5 className="text-[#520ab0] text-[20px] text-bold ">
+        <div className="w-[50%] z-[2] text-right ">
+          <h5 className="text-[#a471e1] text-[20px] text-bold ">
             Featured Project
           </h5>
           <h1>Example Project</h1>

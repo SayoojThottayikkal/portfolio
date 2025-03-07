@@ -5,6 +5,7 @@ import Spotlight from "./pages/Spotlight";
 import Experience from "./pages/Experience";
 import Skill from "./pages/Skill";
 import Project from "./pages/Project";
+import Contact from "./pages/Contact";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <Experience />
       <Skill />
       <Project />
+      <Contact />
     </>
   );
 }

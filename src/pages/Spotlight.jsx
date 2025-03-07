@@ -29,7 +29,7 @@ function Spotlight() {
               alt=""
             />
             <h2>
-              Hello! I Am <span className="text-[#520ab0] ">Sayooj T</span>
+              Hello! I Am <span className="text-[#a471e1]">Sayooj T</span>
             </h2>
           </div>
           <h3 className="mt-[60px]">A Designer who</h3>
@@ -40,7 +40,7 @@ function Spotlight() {
             className="font-bold text-[40px] w-[60%] "
           >
             Judges a book by its{" "}
-            <span className="text-[#520ab0] span relative p-[3px]">
+            <span className="text-[#a471e1] span relative p-[3px]">
               <img
                 className="absolute top-[5%] left-[-3%] w-[100%] h-[100%]"
                 src={ellips}
