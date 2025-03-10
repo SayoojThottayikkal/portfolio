@@ -1,12 +1,18 @@
 import React from "react";
-import Header from "../components/Header";
 import Spotlight from "./Spotlight";
+import Experience from "./Experience";
+import Skill from "./Skill";
+import Project from "./Project";
+import Contact from "./Contact";
 
 function Home() {
   return (
     <>
-      <Header />
       <Spotlight />
+      <Experience />
+      <Skill />
+      <Project />
+      <Contact />
     </>
   );
 }

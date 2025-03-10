@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import "tailwindcss";
 function Header() {
@@ -8,9 +9,15 @@ function Header() {
         <h2 className="">Ƨ</h2>
       </div>
       <div className="flex flex-row justify-between align-middle gap-20 cursor-pointer">
-        <a href="/home/">Home</a>
-        <a href="/About">About</a>
-        <a href="/contact">Contact</a>
+        <NavLink className="" to="/home">
+          Home
+        </NavLink>
+        <NavLink className="" to="/about">
+          About
+        </NavLink>
+        <NavLink className="" to="/contact">
+          Contact
+        </NavLink>
       </div>
     </div>
   );
