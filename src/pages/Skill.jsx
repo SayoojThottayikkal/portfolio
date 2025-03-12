@@ -63,7 +63,7 @@ function Skill() {
         </p>
       </div>
 
-      <div className="flex justify-center gap-[50px] align-middle] relative">
+      <div className="flex justify-center gap-[50px] align-middle] relative ">
         {imageData.map((item) => (
           <a href="">
             <img src={item.image} alt="compay image" />
@@ -72,89 +72,115 @@ function Skill() {
       </div>
 
       <div className="flex flex-row justify-center align-middle relative  h-[25%]">
-        <img src={vector28} alt="" className="absolute left-[36%]" />
-        <img src={vector29} alt="" className="absolute left-[41%]" />
-        <img src={vector30} alt="" className="absolute left-[47%]" />
-        <img src={vector27} alt="" className="absolute left-[50%]" />
-        <img src={vector26} alt="" className="absolute left-[53%]" />
-        <img src={vector25} alt="" className="absolute left-[55%]" />
+        <img
+          src={vector28}
+          alt=""
+          className="absolute left-[36%] xl:left-[34%] lg:left-[30%]"
+        />
+        <img
+          src={vector29}
+          alt=""
+          className="absolute left-[41%] xl:left-[40%] lg:left-[38%]"
+        />
+        <img
+          src={vector30}
+          alt=""
+          className="absolute left-[47%]  lg:left-[46%]"
+        />
+        <img
+          src={vector27}
+          alt=""
+          className="absolute left-[50%] lg:left-[51%]"
+        />
+        <img
+          src={vector26}
+          alt=""
+          className="absolute left-[53%] lg:left-[55%]"
+        />
+        <img
+          src={vector25}
+          alt=""
+          className="absolute left-[55%] xl:left-[56%] lg:left-[57%]"
+        />
       </div>
 
       <div className=" text-[white]  h-[50%] ">
         <div className="bgskill flex justify-center align-middle  relative">
-          <span className=" text-[150px] absolute top-[4%] ">Ƨ</span>
+          <span className=" text-[150px] absolute top-[4%] 2xl:top-[18%] xl:top-[19%] lg:top-[19%]">
+            Ƨ
+          </span>
           <div className="relative w-[80%] flex  align-middle justify-center">
-            <img src={ellips} alt="" />
+            <img src={ellips} alt="" className="lg:absolute lg:top-[30%]" />
             <img
               src={ellips1}
               alt=""
-              className=" absolute top-[3%] left-[14%]"
+              className=" absolute top-[3%] left-[14%] 2xl:top-[28%] 2xl:left-[18%] xl:top-[28%]  xl:left-[10%] lg:left-[0%] lg:top-[20%]"
             />
             <img
               src={ellips2}
               alt=""
-              className=" absolute top-[3%] left-[18%]"
+              className=" absolute top-[3%] left-[18%] 2xl:top-[28%] 2xl:left-[20%]  xl:top-[28%]  xl:left-[15%] lg:left-[3%] lg:top-[18%] "
             />
 
             <img
               src={ellips3}
               alt=""
-              className=" absolute top-[-8%] left-[36%]"
+              className=" absolute top-[-8%] left-[36%] 2xl:top-[8%] 2xl:left-[37%] xl:top-[10%]  xl:left-[34%] lg:top-[11%] lg:left-[30%]"
             />
             <img
               src={ellips4}
               alt=""
-              className=" absolute top-[28%] left-[36.50%]"
+              className=" absolute top-[28%] left-[36.50%] 2xl:top-[32%] 2xl:left-[37%]  xl:top-[34%]  xl:left-[34%] lg:top-[36%] lg:left-[30.50%]"
             />
             <img
               src={group}
               alt=""
-              className="w-[20px] h-[20px] absolute  top-[20%] left-[13%]"
+              className="w-[20px] h-[20px] absolute  top-[20%] left-[13%] 2xl:top-[8%] 2xl:left-[20%]  xl:left-[7%] lg:left-[17%]  lg:top-[40%]"
             />
             <img
               src={group1}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[50%] left-[13%]"
+              className="w-[20px] h-[20px] absolute top-[50%] left-[13%] 2xl:top-[18%] 2xl:left-[9%] xl:left-[-1%] lg:left-[13%] lg:top-[50%]"
             />
             <img
               src={group2}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[70%] left-[21%]"
+              className="w-[20px] h-[20px] absolute top-[70%] left-[21%] xl:left-[15%] lg:left-[16%]  "
             />
             <img
               src={group3}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[20%] right-[13%] "
+              className="w-[20px] h-[20px] absolute top-[20%] right-[13%]  2xl:top-[18%] 2xl:right-[9%] xl:right-[6%] lg:right-[22%] lg:top-[32%] "
             />
             <img
               src={group4}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[40%] right-[17%]"
+              className="w-[20px] h-[20px] absolute top-[40%] right-[15%]  2xl:top-[40%] 2xl:right-[0%] xl:right-[15%] lg:right-[17%] lg:top-[40%]"
             />
             <img
               src={group5}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[75%] right-[14%]"
+              className="w-[20px] h-[20px] absolute top-[75%] right-[14%]  2xl:top-[35%] 2xl:right-[25%] lg:right-[16%] lg:top-[70%]"
             />
             <img
               src={group6}
               alt=""
-              className="w-[20px] h-[20px]   absolute top-[55%] right-[15%]"
+              className="w-[20px] h-[20px]   absolute top-[58%] right-[12%]  2xl:top-[80%] 2xl:right-[25%]  xl:right-[0%] lg:right-[12%] lg:top-[60%]"
             />
             <img
               src={group7}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[28%] left-[21%]"
+              className="w-[20px] h-[20px] absolute top-[28%] left-[21%] 2xl:top-[40%] 2xl:left-[24%] xl:left-[20%] xl:top-[44%] lg:left-[22%] lg:top-[33%] "
             />
             <img
               src={group8}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[60%] left-[9%]"
+              className="w-[20px] h-[20px] absolute top-[60%] left-[9%] 2xl:top-[60%] 2xl:left-[1%] lg:left-[12%] lg:top-[60%]"
             />
             <img
               src={group9}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[55%] right-[8%]"
+              className="w-[20px] h-[20px] absolute top-[55%] right-[8%] 2xl:top-[58%] 2xl:right-[15%] lg:right-[13%] lg:top-[50%]"
             />
           </div>
         </div>
