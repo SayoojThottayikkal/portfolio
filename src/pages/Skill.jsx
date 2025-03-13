@@ -49,16 +49,16 @@ function Skill() {
     },
   ];
   return (
-    <div className="h-[100vh] wrapper flex flex-col align-middle justify-around skill p-[30px] ">
+    <div className="h-[100vh] wrapper flex flex-col align-middle justify-around skill p-[30px] xl:mt-[30px]">
       <div className="p-[20px]">
-        <h1 className="text-center text-[30px] ">
+        <h1 className="text-center text-[30px] xl:text-[25px] ">
           I'm currently looking to join&nbsp;
           <span className="text-[#a471e1] font-semibold ">
             cross-functional
           </span>
           &nbsp;team
         </h1>
-        <p className="text-center">
+        <p className="text-center xl:text-[14px]">
           that values improving people's lives through accessible design
         </p>
       </div>
@@ -66,7 +66,11 @@ function Skill() {
       <div className="flex justify-center gap-[50px] align-middle] relative ">
         {imageData.map((item) => (
           <a href="">
-            <img src={item.image} alt="compay image" />
+            <img
+              src={item.image}
+              alt="compay image"
+              className="xl:h-[20px] xl:w-[20px]"
+            />
           </a>
         ))}
       </div>
@@ -88,73 +92,73 @@ function Skill() {
             <img
               src={ellips1}
               alt=""
-              className=" absolute top-[2%] left-[14%] 2xl:top-[28%] 2xl:left-[18%]  "
+              className=" absolute top-[2%] left-[14%] 2xl:top-[3%] 2xl:left-[16%]  "
             />
             <img
               src={ellips2}
               alt=""
-              className=" absolute top-[2%] left-[17%]  2xl:top-[28%] 2xl:left-[20%]  "
+              className=" absolute top-[2%] left-[17%]  2xl:top-[3%] 2xl:left-[20%]  "
             />
 
             <img
               src={ellips3}
               alt=""
-              className=" absolute top-[-8%] left-[36%] 2xl:top-[8%] 2xl:left-[37%]  "
+              className=" absolute top-[-8%] left-[36%] 2xl:top-[-9%] 2xl:left-[36%]  "
             />
             <img
               src={ellips4}
               alt=""
-              className=" absolute top-[27%] left-[36.50%]  2xl:top-[32%] 2xl:left-[37%]   "
+              className=" absolute top-[27%] left-[36.50%]  2xl:top-[27%] 2xl:left-[36.50%]   "
             />
             <img
               src={group}
               alt=""
-              className="w-[20px] h-[20px] absolute  top-[20%] left-[13%] 2xl:top-[8%] 2xl:left-[20%]   "
+              className="w-[20px] h-[20px] absolute  top-[20%] left-[13%] 2xl:top-[13%] 2xl:left-[25%]   "
             />
             <img
               src={group1}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[50%] left-[13%] 2xl:top-[18%] 2xl:left-[9%]  "
+              className="w-[20px] h-[20px] absolute top-[50%] left-[13%] 2xl:top-[28%] 2xl:left-[12%]  "
             />
             <img
               src={group2}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[70%] left-[21%]   "
+              className="w-[20px] h-[20px] absolute top-[70%] left-[21%]  2xl:top-[75%] 2xl:left-[21%] "
             />
             <img
               src={group3}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[20%] right-[13%]  2xl:top-[18%] 2xl:right-[9%]  "
+              className="w-[20px] h-[20px] absolute top-[20%] right-[13%]  2xl:top-[8%] 2xl:right-[23%]  "
             />
             <img
               src={group4}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[40%] right-[15%] 2xl:top-[40%] 2xl:right-[0%] "
+              className="w-[20px] h-[20px] absolute top-[40%] right-[15%] 2xl:top-[40%] 2xl:right-[17%] "
             />
             <img
               src={group5}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[75%] right-[14%]  2xl:top-[35%] 2xl:right-[25%] "
+              className="w-[20px] h-[20px] absolute top-[75%] right-[14%]  2xl:top-[35%] 2xl:right-[11%] "
             />
             <img
               src={group6}
               alt=""
-              className="w-[20px] h-[20px]   absolute top-[58%] right-[12%] 2xl:top-[80%] 2xl:right-[25%]  "
+              className="w-[20px] h-[20px]   absolute top-[58%] right-[12%] 2xl:top-[60%] 2xl:right-[20%]  "
             />
             <img
               src={group7}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[28%] left-[19%] 2xl:top-[40%] 2xl:left-[24%]  "
+              className="w-[20px] h-[20px] absolute top-[28%] left-[19%] 2xl:top-[40%] 2xl:left-[20%]  "
             />
             <img
               src={group8}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[60%] left-[8%]  2xl:top-[60%] 2xl:left-[1%] "
+              className="w-[20px] h-[20px] absolute top-[60%] left-[8%]  2xl:top-[60%] 2xl:left-[12%] "
             />
             <img
               src={group9}
               alt=""
-              className="w-[20px] h-[20px] absolute top-[55%] right-[8%] 2xl:top-[58%] 2xl:right-[15%] "
+              className="w-[20px] h-[20px] absolute top-[55%] right-[8%] 2xl:top-[70%] 2xl:right-[15%] "
             />
           </div>
         </div>
