@@ -86,7 +86,7 @@ function Skill() {
 
       <div className=" text-[white]  h-[50%] ">
         <div className="  bgskill flex justify-center align-middle  relative xl:top-[30%]">
-          <span className=" text-[150px] absolute top-[4%] text-center xl:top-[-3%] ">
+          <span className=" text-[150px] absolute top-[4%] text-center ">
             Ƨ
           </span>
           <div className="relative w-[80%] flex  align-middle justify-center">
@@ -94,23 +94,23 @@ function Skill() {
             <img
               src={ellips1}
               alt=""
-              className=" absolute top-[2%] left-[14%] 2xl:top-[3%] 2xl:left-[16%] xl:top-[-25%]  xl:left-[10%] "
+              className=" absolute top-[2%] left-[14%] 2xl:top-[3%] 2xl:left-[16%]  "
             />
             <img
               src={ellips2}
               alt=""
-              className=" absolute top-[2%] left-[17%]  2xl:top-[3%] 2xl:left-[20%] xl:top-[-25%]  xl:left-[13%] "
+              className=" absolute top-[2%] left-[17%]  2xl:top-[3%] 2xl:left-[20%] "
             />
 
             <img
               src={ellips3}
               alt=""
-              className=" absolute top-[-8%] left-[36%] 2xl:top-[-8%] 2xl:left-[37%] xl:top-[-30%]  xl:left-[34%] "
+              className=" absolute top-[-8%] left-[36%] 2xl:top-[-8%] 2xl:left-[37%]  "
             />
             <img
               src={ellips4}
               alt=""
-              className=" absolute top-[27%] left-[36.50%]  2xl:top-[29%] 2xl:left-[37.50%] xl:top-[21%]  xl:left-[34%]   "
+              className=" absolute top-[27%] left-[36.50%]  2xl:top-[29%] 2xl:left-[37.50%]  "
             />
             <img
               src={group}
