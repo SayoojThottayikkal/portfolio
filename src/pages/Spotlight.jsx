@@ -13,7 +13,7 @@ function Spotlight() {
           initial={{ transform: "translateX(-900px)" }}
           animate={{ transform: "translateX(0px)" }}
           transition={{ type: "spring", duration: 3 }}
-          className=" w-[20%]   p-15  block bgimg  flex align-middle  justify-center "
+          className=" w-[20%]   p-15  bgimg  flex align-middle  justify-center "
         >
           <img
             className="h-[100%] w-[100%] rounded-[50%] block"

@@ -49,7 +49,7 @@ function Skill() {
     },
   ];
   return (
-    <div className="h-[100vh] wrapper flex flex-col align-middle justify-around skill p-[30px] xl:mt-[30px]">
+    <div className="h-[100vh] wrapper flex flex-col align-middle justify-around skill p-[30px] xl:mt-[30px] xl:mb-[30px]">
       <div className="p-[20px]">
         <h1 className="text-center text-[30px] xl:text-[25px] ">
           I'm currently looking to join&nbsp;
@@ -63,52 +63,54 @@ function Skill() {
         </p>
       </div>
 
-      <div className="flex justify-center gap-[50px] align-middle] relative ">
+      <div className="flex justify-center gap-[50px] align-middle] relative xl:gap-[40px] ">
         {imageData.map((item) => (
           <a href="">
-            <img
-              src={item.image}
-              alt="compay image"
-              className="xl:h-[20px] xl:w-[20px]"
-            />
+            <img src={item.image} alt="compay image" className="" />
           </a>
         ))}
       </div>
 
       <div className="flex flex-row justify-center align-middle relative  h-[25%]">
-        <img src={vector28} alt="" className="absolute left-[36%] " />
+        <img src={vector28} alt="" className="absolute left-[36%]  " />
         <img src={vector29} alt="" className="absolute left-[41%] " />
         <img src={vector30} alt="" className="absolute left-[47%]  " />
         <img src={vector27} alt="" className="absolute left-[50%] " />
         <img src={vector26} alt="" className="absolute left-[53%] " />
-        <img src={vector25} alt="" className="absolute left-[55%] " />
+        <img
+          src={vector25}
+          alt=""
+          className="absolute left-[55%] xl:left-[54%]"
+        />
       </div>
 
       <div className=" text-[white]  h-[50%] ">
-        <div className="bgskill flex justify-center align-middle  relative">
-          <span className=" text-[150px] absolute top-[4%]">Ƨ</span>
+        <div className="  bgskill flex justify-center align-middle  relative xl:top-[30%]">
+          <span className=" text-[150px] absolute top-[4%] text-center xl:top-[-3%] ">
+            Ƨ
+          </span>
           <div className="relative w-[80%] flex  align-middle justify-center">
             <img src={ellips} alt="" className=" " />
             <img
               src={ellips1}
               alt=""
-              className=" absolute top-[2%] left-[14%] 2xl:top-[3%] 2xl:left-[16%]  "
+              className=" absolute top-[2%] left-[14%] 2xl:top-[3%] 2xl:left-[16%] xl:top-[-25%]  xl:left-[10%] "
             />
             <img
               src={ellips2}
               alt=""
-              className=" absolute top-[2%] left-[17%]  2xl:top-[3%] 2xl:left-[20%]  "
+              className=" absolute top-[2%] left-[17%]  2xl:top-[3%] 2xl:left-[20%] xl:top-[-25%]  xl:left-[13%] "
             />
 
             <img
               src={ellips3}
               alt=""
-              className=" absolute top-[-8%] left-[36%] 2xl:top-[-9%] 2xl:left-[36%]  "
+              className=" absolute top-[-8%] left-[36%] 2xl:top-[-8%] 2xl:left-[37%] xl:top-[-30%]  xl:left-[34%] "
             />
             <img
               src={ellips4}
               alt=""
-              className=" absolute top-[27%] left-[36.50%]  2xl:top-[27%] 2xl:left-[36.50%]   "
+              className=" absolute top-[27%] left-[36.50%]  2xl:top-[29%] 2xl:left-[37.50%] xl:top-[21%]  xl:left-[34%]   "
             />
             <img
               src={group}
