@@ -56,7 +56,7 @@ function Spotlight() {
         </div>
       </div>
       <div className="text-center w-[50%] m-auto">
-        <h1 className="text-[30px] font-bold color">
+        <h1 className="text-[30px] font-bold text-[red]">
           I'm a Software Engineer{" "}
         </h1>
         <p className=" ">
