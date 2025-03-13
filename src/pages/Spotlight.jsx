@@ -8,12 +8,12 @@ import ellips from "../images/Ellipse5.png";
 function Spotlight() {
   return (
     <div className="h-[92vh]   wrapper  ">
-      <div className=" p-10 flex flex-row align-middle justify-center ">
+      <div className=" p-10 flex flex-row align-middle justify-center  ">
         <motion.div
           initial={{ transform: "translateX(-900px)" }}
           animate={{ transform: "translateX(0px)" }}
           transition={{ type: "spring", duration: 3 }}
-          className=" w-[20%]  p-15  block bgimg  flex align-middle  justify-center"
+          className=" w-[20%]  p-15  block bgimg  flex align-middle  justify-center "
         >
           <img
             className="h-[100%] w-[100%] rounded-[50%] block"
@@ -56,7 +56,9 @@ function Spotlight() {
         </div>
       </div>
       <div className="text-center w-[50%] m-auto">
-        <h1 className="text-[30px] font-bold">I'm a Software Engineer </h1>
+        <h1 className="text-[30px] font-bold color">
+          I'm a Software Engineer{" "}
+        </h1>
         <p className=" ">
           A self-taught UI/UX designer, functioning in the industry for 3+ years
           now. I make meaningful and delightful digital products that create an

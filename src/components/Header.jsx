@@ -8,7 +8,7 @@ function Header() {
       <div className="">
         <h2 className="">Ƨ</h2>
       </div>
-      <div className="flex flex-row justify-between align-middle gap-20 cursor-pointer">
+      <div className="flex flex-row justify-between align-middle gap-20 cursor-pointer lg:gap-10">
         <NavLink className="" to="/">
           Home
         </NavLink>
