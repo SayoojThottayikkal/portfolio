@@ -8,20 +8,20 @@ import ellips from "../images/Ellipse5.png";
 function Spotlight() {
   return (
     <div className="h-[100vh]   wrapper  ">
-      <div className=" p-10 flex flex-row align-middle justify-center  ">
+      <div className=" p-10 flex flex-row  justify-center items-center ">
         <motion.div
           initial={{ transform: "translateX(-900px)" }}
           animate={{ transform: "translateX(0px)" }}
           transition={{ type: "spring", duration: 3 }}
-          className=" w-[20%]   p-15  bgimg  flex align-middle  justify-center "
+          className=" w-[20%]   p-15  bgimg  flex align-middle  justify-center  "
         >
           <img
-            className="h-[100%] w-[100%] rounded-[50%] block"
+            className="h-[100%] w-[100%] rounded-[50%] block "
             src={myimg}
             alt="profile photo"
           />
         </motion.div>
-        <div className="flex flex-col  align-middle justify-center p-10   relative">
+        <div className="flex flex-col  align-middle justify-center p-10   relative  ">
           <div className="flex  ">
             <img
               className=" absolute top-[50px]  left-[-45px]"

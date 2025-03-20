@@ -6,7 +6,7 @@ import vector4 from "../images/Vector4.png";
 function Contact() {
   return (
     <div className="h-[100vh] p-[60px] flex flex-col justify-evenly">
-      <h1>Contact</h1>
+      <h1 className="text-[40px]">Contact</h1>
       <div className="flex flex-col gap-[30px]">
         <p className="w-[50%] ">
           I'm currently looking to join a cross-functional team that values
@@ -21,7 +21,7 @@ function Contact() {
           </a>
         </p>
       </div>
-      <div className=" flex flex-row justify-items-start gap-[20px]">
+      <div className=" flex flex-row justify-items-start gap-[20px] ">
         <a href="">
           {" "}
           <img src={vector2} alt="" />

@@ -50,9 +50,9 @@ function Skill() {
     },
   ];
   return (
-    <div className="h-[100vh] wrapper flex flex-col align-middle justify-around skill p-[30px] xl:mt-[40px] xl:mb-[40px]">
+    <div className="h-[100vh] wrapper flex flex-col  justify-around skill p-[30px] xl:mt-[40px] xl:mb-[40px]">
       <div className="p-[20px]">
-        <h1 className="text-center text-[30px] xl:text-[25px] ">
+        <h1 className="text-center text-[30px] xl:text-[35px] ">
           I'm currently looking to join&nbsp;
           <span className="text-[#a471e1] font-semibold ">
             cross-functional
@@ -64,7 +64,7 @@ function Skill() {
         </p>
       </div>
 
-      <div className="flex justify-center gap-[50px] align-middle] relative xl:gap-[40px] ">
+      <div className="flex justify-center gap-[50px] ] relative xl:gap-[40px] ">
         {imageData.map((item) => (
           <a href="">
             <img src={item.image} alt="compay image" className="" />
@@ -72,7 +72,7 @@ function Skill() {
         ))}
       </div>
 
-      <div className="flex flex-row justify-center align-middle relative  h-[25%]">
+      <div className="flex flex-row justify-center  relative  h-[25%]">
         <div className="absolute left-[36%]  ">
           <img src={vector28} alt="" />
         </div>
@@ -95,29 +95,29 @@ function Skill() {
       {/* vector end */}
 
       <div className=" text-[white]  h-[50%] ">
-        <div className="  bgskill flex justify-center align-middle  relative xl:top-[30%]">
+        <div className="  bgskill flex justify-center   relative xl:top-[30%]">
           <span className=" text-[150px] absolute top-[4%] text-center xl:top-[-4%]">
             Ƨ
           </span>
           {/* ellips start */}
-          <div className="relative w-[80%] flex  align-middle justify-center">
+          <div className="relative w-[80%] flex   justify-center">
             <div>
               <img src={ellips} alt="" className=" " />
             </div>
 
-            <div className=" absolute top-[2%] left-[14%] 2xl:top-[3%] 2xl:left-[16%] xl:left-[10%] ">
+            <div className=" absolute top-[2%] left-[14%] xl:left-[10%] 2xl:top-[3%] 2xl:left-[16%]  ">
               <img src={ellips1} alt="" />
             </div>
 
-            <div className=" absolute top-[2%] left-[17%]  2xl:top-[3%] 2xl:left-[20%] xl:left-[13%] ">
+            <div className=" absolute top-[2%] left-[17%] xl:left-[13%]  2xl:top-[3%] 2xl:left-[20%] ">
               <img src={ellips2} alt="" />
             </div>
 
-            <div className=" absolute top-[-8%] left-[36%] 2xl:top-[-8%] 2xl:left-[37%] xl:top-[-18%] xl:left-[34%] ">
+            <div className=" absolute top-[-8%] left-[36%] xl:top-[-18%] xl:left-[34%]  2xl:top-[-8%] 2xl:left-[37%] ">
               <img src={ellips3} alt="" />
             </div>
 
-            <div className=" absolute top-[27%] left-[36.50%]  2xl:top-[29%] 2xl:left-[37.50%] xl:top-[21%] xl:left-[34.50%]  ">
+            <div className=" absolute top-[27%] left-[36.50%] xl:top-[21%] xl:left-[34.50%]   2xl:top-[29%] 2xl:left-[37.50%]  ">
               <img src={ellips4} alt="" />
             </div>
             {/* group start */}
@@ -127,7 +127,7 @@ function Skill() {
             <div className="w-[20px] h-[20px] absolute top-[50%] left-[13%] 2xl:top-[28%] 2xl:left-[12%]  ">
               <img src={group1} alt="" />
             </div>
-            <div className="w-[20px] h-[20px] absolute top-[70%] left-[21%]  2xl:top-[75%] 2xl:left-[21%] xl:top-[78%] xl:left-[12%]">
+            <div className="w-[20px] h-[20px] absolute top-[70%] left-[21%] xl:top-[78%] xl:left-[12%] 2xl:top-[75%] 2xl:left-[21%] ">
               <img src={group2} alt="" />
             </div>
             <div className="w-[20px] h-[20px] absolute top-[20%] right-[13%]  2xl:top-[8%] 2xl:right-[23%]  ">
@@ -136,7 +136,7 @@ function Skill() {
             <div className="w-[20px] h-[20px] absolute top-[40%] right-[15%] 2xl:top-[40%] 2xl:right-[17%] ">
               <img src={group4} alt="" />
             </div>
-            <div className="w-[20px] h-[20px] absolute top-[75%] right-[14%]  2xl:top-[35%] 2xl:right-[11%] xl:top-[78%] xl:right-[4%]  ">
+            <div className="w-[20px] h-[20px] absolute top-[75%] right-[14%] xl:top-[78%] xl:right-[4%] 2xl:top-[35%] 2xl:right-[11%]   ">
               <img src={group5} alt="" />
             </div>
             <div className="w-[20px] h-[20px]   absolute top-[58%] right-[12%] 2xl:top-[60%] 2xl:right-[20%] ">
@@ -145,7 +145,7 @@ function Skill() {
             <div className="w-[20px] h-[20px] absolute top-[28%] left-[19%] 2xl:top-[40%] 2xl:left-[20%]   ">
               <img src={group7} alt="" />
             </div>
-            <div className="w-[20px] h-[20px] absolute top-[60%] left-[8%]  2xl:top-[60%] 2xl:left-[12%] xl:left-[3%]">
+            <div className="w-[20px] h-[20px] absolute top-[60%] left-[8%] xl:left-[3%] 2xl:top-[60%] 2xl:left-[12%] ">
               <img src={group8} alt="" />
             </div>
             <div className="w-[20px] h-[20px] absolute top-[55%] right-[8%] 2xl:top-[70%] 2xl:right-[15%] ">
