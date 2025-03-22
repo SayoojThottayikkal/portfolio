@@ -1,58 +1,55 @@
-import React from "react";
+import React, { Fragment } from "react";
 import img1 from "../images/Rectangle 1.png";
 import img2 from "../images/Rectangle 2.png";
 import img3 from "../images/Rectangle 3.png";
 import img4 from "../images/Rectangle 4.png";
 import img6 from "../images/Rectangle 6.png";
 import img7 from "../images/Rectangle 7.png";
-import vector25 from "../images/Vector 25.png";
-import vector26 from "../images/Vector 26.png";
-import vector27 from "../images/Vector 27.png";
-import vector28 from "../images/Vector 28.png";
-import vector29 from "../images/Vector 29.png";
-import vector30 from "../images/Vector 30.png";
-import ellips from "../images/Ellipse21.png";
-import ellips1 from "../images/Ellipse22.png";
-import ellips2 from "../images/Ellipse23.png";
-import ellips3 from "../images/Ellipse24.png";
-import ellips4 from "../images/Ellipse25.png";
-import group from "../images/Group.png";
-import group1 from "../images/Group1.png";
-import group2 from "../images/Group2.png";
-import group3 from "../images/Group3.png";
-import group4 from "../images/Group4.png";
-import group5 from "../images/Group5.png";
-import group6 from "../images/Group6.png";
-import group7 from "../images/Group7.png";
-import group8 from "../images/Group8.png";
-import group9 from "../images/Group9.png";
-import { div } from "framer-motion/client";
+import NodeIcon from "../images/icons/NodeIcon";
+import NodeIconTwo from "../images/icons/NodeIconTwo";
+import NodeIconThree from "../images/icons/NodeIconThree";
+import NodeIconFour from "../images/icons/NodeIconFour";
+import NodeIconFive from "../images/icons/NodeIconFive";
+import NodeIconSix from "../images/icons/NodeIconSix";
+import Global from "../images/icons/Global";
 
 function Skill() {
   const imageData = [
     {
+      id: "1",
       image: img1,
+      nodeImage: <NodeIcon />,
     },
     {
+      id: "2",
       image: img2,
+      nodeImage: <NodeIconTwo />,
     },
     {
+      id: "3",
       image: img3,
+      nodeImage: <NodeIconThree />,
     },
     {
+      id: "4",
       image: img4,
+      nodeImage: <NodeIconFour />,
     },
     {
+      id: "5",
       image: img6,
+      nodeImage: <NodeIconFive />,
     },
     {
+      id: "6",
       image: img7,
+      nodeImage: <NodeIconSix />,
     },
   ];
   return (
-    <div className="h-[100vh] wrapper flex flex-col  justify-around skill p-[30px] xl:mt-[40px] xl:mb-[40px]">
-      <div className="p-[20px]">
-        <h1 className="text-center text-[30px] xl:text-[35px] ">
+    <div className="h-[100vh] wrapper flex flex-col align-middle ">
+      <div className="mb-10">
+        <h1 className="text-center text-[30px] xl:text-[25px] custom:text-red-600 ">
           I'm currently looking to join&nbsp;
           <span className="text-[#a471e1] font-semibold ">
             cross-functional
@@ -64,96 +61,35 @@ function Skill() {
         </p>
       </div>
 
-      <div className="flex justify-center gap-[50px] ] relative xl:gap-[40px] ">
-        {imageData.map((item) => (
-          <a href="">
-            <img src={item.image} alt="compay image" className="" />
-          </a>
-        ))}
+      <div className="flex justify-center relative gap-[40px]">
+        {imageData.map((item, index) => {
+          const nodeStyles =
+            {
+              5: { left: "-95px", top: "56px" },
+              4: { left: "-44px", top: "58px" },
+              3: { top: "57px" },
+              2: { top: "57px", left: "30px" },
+              1: { top: "57px", left: "30px" },
+              0: { top: "57px", left: "30px" },
+            }[index] || {};
+
+          return (
+            <div className="relative" key={index}>
+              <div className="bg-[#251C31] w-[60px] h-[60px] flex justify-center items-center rounded-full mb-5">
+                <img src={item.image} alt="company image" />
+              </div>
+              <div className="absolute" style={nodeStyles}>
+                {item.nodeImage}
+              </div>
+            </div>
+          );
+        })}
+        <div className="absolute top-[-150px]">
+          <Global />
+        </div>
       </div>
 
-      <div className="flex flex-row justify-center  relative  h-[25%]">
-        <div className="absolute left-[36%]  ">
-          <img src={vector28} alt="" />
-        </div>
-        <div className="absolute left-[41%] ">
-          <img src={vector29} alt="" />
-        </div>
-        <div className="absolute left-[47%]  ">
-          <img src={vector30} alt="" />
-        </div>
-        <div className="absolute left-[50%] ">
-          <img src={vector27} alt="" />
-        </div>
-        <div className="absolute left-[53%] ">
-          <img src={vector26} alt="" />
-        </div>
-        <div className="absolute left-[55%] xl:left-[54%]">
-          <img src={vector25} alt="" />
-        </div>
-      </div>
       {/* vector end */}
-
-      <div className=" text-[white]  h-[50%] ">
-        <div className="  bgskill flex justify-center   relative xl:top-[30%]">
-          <span className=" text-[150px] absolute top-[4%] text-center xl:top-[-4%]">
-            Ƨ
-          </span>
-          {/* ellips start */}
-          <div className="relative w-[80%] flex   justify-center">
-            <div>
-              <img src={ellips} alt="" className=" " />
-            </div>
-
-            <div className=" absolute top-[2%] left-[14%] xl:left-[10%] 2xl:top-[3%] 2xl:left-[16%]  ">
-              <img src={ellips1} alt="" />
-            </div>
-
-            <div className=" absolute top-[2%] left-[17%] xl:left-[13%]  2xl:top-[3%] 2xl:left-[20%] ">
-              <img src={ellips2} alt="" />
-            </div>
-
-            <div className=" absolute top-[-8%] left-[36%] xl:top-[-18%] xl:left-[34%]  2xl:top-[-8%] 2xl:left-[37%] ">
-              <img src={ellips3} alt="" />
-            </div>
-
-            <div className=" absolute top-[27%] left-[36.50%] xl:top-[21%] xl:left-[34.50%]   2xl:top-[29%] 2xl:left-[37.50%]  ">
-              <img src={ellips4} alt="" />
-            </div>
-            {/* group start */}
-            <div className="w-[20px] h-[20px] absolute  top-[20%] left-[13%] 2xl:top-[13%] 2xl:left-[25%]   ">
-              <img src={group} alt="" />
-            </div>
-            <div className="w-[20px] h-[20px] absolute top-[50%] left-[13%] 2xl:top-[28%] 2xl:left-[12%]  ">
-              <img src={group1} alt="" />
-            </div>
-            <div className="w-[20px] h-[20px] absolute top-[70%] left-[21%] xl:top-[78%] xl:left-[12%] 2xl:top-[75%] 2xl:left-[21%] ">
-              <img src={group2} alt="" />
-            </div>
-            <div className="w-[20px] h-[20px] absolute top-[20%] right-[13%]  2xl:top-[8%] 2xl:right-[23%]  ">
-              <img src={group3} alt="" />
-            </div>
-            <div className="w-[20px] h-[20px] absolute top-[40%] right-[15%] 2xl:top-[40%] 2xl:right-[17%] ">
-              <img src={group4} alt="" />
-            </div>
-            <div className="w-[20px] h-[20px] absolute top-[75%] right-[14%] xl:top-[78%] xl:right-[4%] 2xl:top-[35%] 2xl:right-[11%]   ">
-              <img src={group5} alt="" />
-            </div>
-            <div className="w-[20px] h-[20px]   absolute top-[58%] right-[12%] 2xl:top-[60%] 2xl:right-[20%] ">
-              <img src={group6} alt="" />
-            </div>
-            <div className="w-[20px] h-[20px] absolute top-[28%] left-[19%] 2xl:top-[40%] 2xl:left-[20%]   ">
-              <img src={group7} alt="" />
-            </div>
-            <div className="w-[20px] h-[20px] absolute top-[60%] left-[8%] xl:left-[3%] 2xl:top-[60%] 2xl:left-[12%] ">
-              <img src={group8} alt="" />
-            </div>
-            <div className="w-[20px] h-[20px] absolute top-[55%] right-[8%] 2xl:top-[70%] 2xl:right-[15%] ">
-              <img src={group9} alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }

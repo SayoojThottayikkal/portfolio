@@ -13,10 +13,10 @@ function Spotlight() {
           initial={{ transform: "translateX(-900px)" }}
           animate={{ transform: "translateX(0px)" }}
           transition={{ type: "spring", duration: 3 }}
-          className=" w-[20%]   p-15  bgimg  flex align-middle  justify-center  "
+          className="   p-15  bgimg  flex align-middle  justify-center "
         >
           <img
-            className="h-[100%] w-[100%] rounded-[50%] block "
+            className=" w-[100%] rounded-[50%] block"
             src={myimg}
             alt="profile photo"
           />
@@ -56,9 +56,7 @@ function Spotlight() {
         </div>
       </div>
       <div className="text-center w-[50%] m-auto xl:w-[60%]">
-        <h1 className="text-[30px] font-bold text-[red]">
-          I'm a Software Engineer{" "}
-        </h1>
+        <h1 className="text-[30px] font-bold ">I'm a Software Engineer </h1>
         <p className=" ">
           I am fresher passed out in 2021, with a bachelor of engineering in
           computer science from the Anna University Chennai. Now I want to apply

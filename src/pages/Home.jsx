@@ -4,6 +4,7 @@ import Experience from "./Experience";
 import Skill from "./Skill";
 import Project from "./Project";
 import Contact from "./Contact";
+import Global from "../images/icons/Global";
 
 function Home() {
   return (
