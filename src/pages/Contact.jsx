@@ -20,6 +20,9 @@ function Contact() {
             sayoojt99@gmail.com
           </a>
         </p>
+        <p>
+          <a href="">+916238268561</a>
+        </p>
       </div>
       <div className=" flex flex-row justify-items-start gap-[20px] ">
         <a href="">

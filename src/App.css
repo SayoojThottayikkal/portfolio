@@ -1,25 +1,12 @@
 @font-face {
-  font-family: Bold;
-  src: url(./fonts/OpenSans-Bold.woff);
-}
-@font-face {
-  font-family: Italic;
-  src: url(./fonts/OpenSans-Italic.woff);
-}
-
-@font-face {
-  font-family: Light;
-  src: url(./fonts/OpenSans-Light.woff);
-}
-@font-face {
-  font-family: Regular;
-  src: url(./fonts/OpenSans-Regular.woff);
-}
-@font-face {
-  font-family: SemiBold;
-  src: url(./fonts/OpenSans-SemiBold.woff);
+  font-family: "Preahvihear Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Preahvihear Regular"),
+    url("./fonts/Preahvihear-Regular.woff") format("woff");
 }
 body {
+  font-family: "Preahvihear Regular";
   background-color: #120229;
   color: #fff;
   padding-left: 20px;
@@ -27,22 +14,18 @@ body {
 }
 
 p {
-  font-family: "Regular";
   color: #fff;
 }
 h1 {
-  font-family: "Bold";
-
   font-weight: bold;
 }
 h3 {
   font-size: 24px;
   color: #fff;
-  font-family: Semibold;
+
   font-weight: 500;
 }
 h2 {
-  font-family: "Bold";
   color: #fff;
 }
 
@@ -55,9 +38,6 @@ a {
   border-radius: 50%;
 }
 
-.span {
-  font-family: Italic;
-}
 .experience {
   background-image: url(./images/Gradient.png);
   background-repeat: no-repeat;

@@ -20,7 +20,7 @@ function Experience() {
     },
   ];
   return (
-    <div className="h-[100vh] p-[20px] wrapper xl:p-[50px] ">
+    <div className="h-[100vh] ">
       <h1 className="text-[40px] mb-[20px] p-10 xl:mb-[0]">Work Experience</h1>
       <div className=" experience  flex justify-evenly flex-wrap ">
         {data.map((item) => (

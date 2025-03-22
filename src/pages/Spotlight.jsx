@@ -8,12 +8,12 @@ import ellips from "../images/Ellipse5.png";
 function Spotlight() {
   return (
     <div className="h-[100vh]   wrapper  ">
-      <div className=" p-10 flex flex-row  justify-center items-center ">
+      <div className="  flex flex-row  justify-center items-center ">
         <motion.div
           initial={{ transform: "translateX(-900px)" }}
           animate={{ transform: "translateX(0px)" }}
           transition={{ type: "spring", duration: 3 }}
-          className="   p-15  bgimg  flex align-middle  justify-center "
+          className="   p-10  bgimg  flex align-middle  justify-center "
         >
           <img className=" w-[100%]  block" src={myimg} alt="profile photo" />
         </motion.div>
@@ -38,7 +38,7 @@ function Spotlight() {
             Judges a book by its{" "}
             <span className="text-[#a471e1] span relative p-[3px]">
               <img
-                className="absolute top-[5%] left-[-3%] w-[100%] h-[100%]"
+                className="absolute top-[-3%] left-[-3%] w-[100%] h-[100%]"
                 src={ellips}
                 alt=""
               />
@@ -46,7 +46,7 @@ function Spotlight() {
             </span>
             ...
           </motion.h1>
-          <p className="text-[10px]">
+          <p className="text-[10px] mt-2">
             Because if the cover does not impress you what else can?
           </p>
         </div>
@@ -54,10 +54,10 @@ function Spotlight() {
       <div className="text-center w-[50%] m-auto xl:w-[60%]">
         <h1 className="text-[30px] font-bold ">I'm a Software Engineer </h1>
         <p className=" ">
-          I am fresher passed out in 2021, with a bachelor of engineering in
-          computer science from the Anna University Chennai. Now I want to apply
-          my skills and knowledge in a reputed company like yours. I believe
-          that I would be a valuable asset for your organization.
+          I am fresher , with a bachelor of engineering in computer science from
+          the Anna University Chennai. Now I want to apply my skills and
+          knowledge in a reputed company like yours. I believe that I would be a
+          valuable asset for your organization.
         </p>
       </div>
     </div>
