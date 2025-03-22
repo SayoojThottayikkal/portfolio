@@ -1,6 +1,6 @@
 import React from "react";
 import "tailwindcss";
-import myimg from "../images/img.jpg";
+import myimg from "../images/image.png";
 import vector from "../images/Vector.png";
 import { motion } from "framer-motion";
 import ellips from "../images/Ellipse5.png";
@@ -15,11 +15,7 @@ function Spotlight() {
           transition={{ type: "spring", duration: 3 }}
           className="   p-15  bgimg  flex align-middle  justify-center "
         >
-          <img
-            className=" w-[100%] rounded-[50%] block"
-            src={myimg}
-            alt="profile photo"
-          />
+          <img className=" w-[100%]  block" src={myimg} alt="profile photo" />
         </motion.div>
         <div className="flex flex-col  align-middle justify-center p-10   relative  ">
           <div className="flex  ">

@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import img1 from "../images/Rectangle 1.png";
 import img2 from "../images/Rectangle 2.png";
 import img3 from "../images/Rectangle 3.png";
@@ -88,8 +88,6 @@ function Skill() {
           <Global />
         </div>
       </div>
-
-      {/* vector end */}
     </div>
   );
 }
