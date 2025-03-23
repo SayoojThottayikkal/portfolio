@@ -6,7 +6,7 @@ import project4 from "../images/project2.png";
 
 function Project() {
   return (
-    <div className="h-[180vh] flex flex-col justify-evenly align-middle bgimagegradient  ">
+    <div className="h-[200vh] flex flex-col justify-evenly align-middle bgimagegradient  ">
       <div className=" flex justify-center align-middle p-[20px]">
         <div className="w-[50%] z-[2]">
           <h5 className="text-[#a471e1] text-[20px] text-bold ">
