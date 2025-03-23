@@ -7,61 +7,66 @@ import ellips from "../images/Ellipse5.png";
 
 function Spotlight() {
   return (
-    <div className="h-[100vh]   wrapper flex flex-col items-center justify-evenly ">
-      <div className=" p-4  flex flex-row  justify-center items-center  ">
+    <div className="h-screen px-2 sm:px-0 flex flex-col items-center justify-evenly sm:p-4 ">
+      <div className=" flex flex-col  sm:flex-row items-center justify-center gap-0  ">
         <motion.div
           initial={{ transform: "translateX(-900px)" }}
           animate={{ transform: "translateX(0px)" }}
           transition={{ type: "spring", duration: 3 }}
-          className="   p-10  bgimg  flex align-middle  justify-center "
+          className="   h-2/6 sm:h-full    sm:p-8  rounded-full flex justify-center "
         >
           <img
-            className=" block lg:h-[70%] "
+            className="   block sm:h-3/4 lg:h-3/4 "
             src={myimg}
             alt="profile photo "
           />
         </motion.div>
-        <div className="flex flex-col  align-middle justify-center p-10   relative  ">
+        <div className="flex p-0 flex-col items-center lg:items-start text-center lg:text-left sm:p-10 relative  ">
           <div className="flex  ">
             <img
-              className=" absolute top-[50px]  left-[-45px]"
+              className="absolute top-[50px] left-[-45px] hidden lg:block"
               src={vector}
               alt=""
             />
-            <h2>
+            <h2 className="text-xl lg:text-2xl">
               Hello! I Am <span className="text-[#a471e1]">Sayooj T</span>
             </h2>
           </div>
-          <h3 className="mt-[60px]">A Designer who</h3>
+          <h3 className="mt-3 sm:mt-6 text-sm sm:text-lg lg:text-xl">
+            A Designer who
+          </h3>
           <motion.h1
             initial={{ x: 900 }}
             animate={{ x: 0 }}
             transition={{ duration: 2, type: "spring" }}
-            className="font-bold text-[40px] w-[60%] "
+            className="font-bold text-lg sm:xl sm:w-3/4 md:2xl lg:text-4xl w-full"
           >
-            Judges a book by its{" "}
-            <span className="text-[#a471e1] span relative p-[3px]">
+            Judges a book by its
+            <span className="text-[#a471e1] relative inline-block px-2">
               <img
-                className="absolute top-[-3%] left-[-3%] w-[100%] h-[100%]"
+                className="absolute top-0 left-0 w-full h-full"
                 src={ellips}
                 alt=""
               />
-              cover{" "}
+              cover
             </span>
             ...
           </motion.h1>
-          <p className="text-[10px] mt-2 ">
-            Because if the cover does not impress you what else can?
+          <p className="text-sm mt-0 sm:mt-2">
+            Because if the cover does not impress you, what else can?
           </p>
         </div>
       </div>
-      <div className="text-center w-[50%] m-auto ">
-        <h1 className="text-[35px] font-bold ">I'm a Software Engineer </h1>
-        <p className=" ">
-          I am fresher , with a bachelor of engineering in computer science from
-          the Anna University Chennai. Now I want to apply my skills and
-          knowledge in a reputed company like yours. I believe that I would be a
-          valuable asset for your organization.
+
+      <div className="text-center mt-[-10%] lg:mt-0 w-full sm:w-4/5 lg:w-1/2">
+        <h1 className="text-2xl lg:text-3xl text-red-700 font-bold">
+          I'm a Software Engineer
+        </h1>
+        <p className="text-xs  md:text-sm lg:text-base mt-2 ">
+          I am a fresher with a Bachelor of Engineering in Computer Science from
+          Anna University Chennai. Now I want to apply my skills and knowledge
+          in a reputed company like yours. I believe that I would be a valuable
+          asset to your organization.
         </p>
       </div>
     </div>

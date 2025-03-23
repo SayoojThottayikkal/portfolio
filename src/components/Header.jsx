@@ -5,27 +5,28 @@ import { NavLink } from "react-router-dom";
 import "tailwindcss";
 function Header() {
   return (
-    <div className="bg-[#1A0B2E] h-auto flex justify-around  align-middle p-3  ">
-      <div className="h-[25px] w-[25px]">
-        <img src={logo} alt="" />
+    <div className="bg-[#1A0B2E] h-auto flex items-center justify-between md:justify-around px-6 py-3 ">
+      <div className="h-10 w-10 flex items-center">
+        <img src={logo} alt="Logo" className="h-full w-full object-contain" />
       </div>
-      <div className="flex flex-row justify-between align-middle gap-20 cursor-pointer  ">
-        <NavLink className="" to="/">
+      <nav className="hidden md:flex space-x-8 text-white font-medium">
+        <NavLink to="/" className="">
           Home
         </NavLink>
-        <NavLink className="" to="/about">
+        <NavLink to="/about" className="">
           About
         </NavLink>
-        <NavLink className="" to="/skill">
+        <NavLink to="/skill" className="">
           Skill
         </NavLink>
-        <NavLink className="" to="/experience">
+        <NavLink to="/experience" className=" ">
           Experience
         </NavLink>
-        <NavLink className="" to="/contact">
+        <NavLink to="/contact" className="">
           Contact
         </NavLink>
-      </div>
+      </nav>
+      <div className="md:hidden text-white ">☰</div>
     </div>
   );
 }

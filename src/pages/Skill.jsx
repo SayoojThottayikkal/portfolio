@@ -49,7 +49,7 @@ function Skill() {
   return (
     <div className="h-[100vh] p-[20px] wrapper flex flex-col align-middle  ">
       <div className="mb-10">
-        <h1 className="text-center text-[30px] xl:text-[25px] custom:text-red-600 ">
+        <h1 className="text-center text-[30px]   ">
           I'm currently looking to join&nbsp;
           <span className="text-[#a471e1] font-semibold ">
             cross-functional
