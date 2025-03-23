@@ -6,7 +6,7 @@ import vector5 from "../images/whatsapp (2).png";
 
 function Contact() {
   return (
-    <div className="h-[100vh] p-[60px] flex flex-col justify-evenly">
+    <div className="h-[100vh] p-[60px] flex flex-col justify-between">
       <h1 className="text-[40px]">Contact</h1>
       <div className="flex flex-col gap-[30px]">
         <p className="w-[50%] ">

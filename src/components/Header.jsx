@@ -9,7 +9,7 @@ function Header() {
       <div className="h-[25px] w-[25px]">
         <img src={logo} alt="" />
       </div>
-      <div className="flex flex-row justify-between align-middle gap-20 cursor-pointer lg:gap-10">
+      <div className="flex flex-row justify-between align-middle gap-20 cursor-pointer  ">
         <NavLink className="" to="/">
           Home
         </NavLink>

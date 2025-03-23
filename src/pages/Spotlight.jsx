@@ -16,7 +16,7 @@ function Spotlight() {
           className="   p-10  bgimg  flex align-middle  justify-center "
         >
           <img
-            className=" block lg:h-[70%] lg:w-[70%]"
+            className=" block lg:h-[70%] "
             src={myimg}
             alt="profile photo "
           />
@@ -37,7 +37,7 @@ function Spotlight() {
             initial={{ x: 900 }}
             animate={{ x: 0 }}
             transition={{ duration: 2, type: "spring" }}
-            className="font-bold text-[40px] w-[60%] lg:text-[30px] 2xl:text-[45px]"
+            className="font-bold text-[40px] w-[60%] "
           >
             Judges a book by its{" "}
             <span className="text-[#a471e1] span relative p-[3px]">
@@ -55,11 +55,9 @@ function Spotlight() {
           </p>
         </div>
       </div>
-      <div className="text-center w-[50%] m-auto xl:w-[60%]">
-        <h1 className="text-[35px] font-bold lg:text-[30px] 2xl:text-[45px]">
-          I'm a Software Engineer{" "}
-        </h1>
-        <p className=" text-[20px] lg:text-[14px] 2xl:text-[24px] ">
+      <div className="text-center w-[50%] m-auto ">
+        <h1 className="text-[35px] font-bold ">I'm a Software Engineer </h1>
+        <p className=" ">
           I am fresher , with a bachelor of engineering in computer science from
           the Anna University Chennai. Now I want to apply my skills and
           knowledge in a reputed company like yours. I believe that I would be a

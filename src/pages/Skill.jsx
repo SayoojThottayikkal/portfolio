@@ -47,7 +47,7 @@ function Skill() {
     },
   ];
   return (
-    <div className="h-[100vh] p-[20px] wrapper flex flex-col align-middle xl:h-[130vh] 2xl:h-[90vh]">
+    <div className="h-[100vh] p-[20px] wrapper flex flex-col align-middle  ">
       <div className="mb-10">
         <h1 className="text-center text-[30px] xl:text-[25px] custom:text-red-600 ">
           I'm currently looking to join&nbsp;
@@ -56,7 +56,7 @@ function Skill() {
           </span>
           &nbsp;team
         </h1>
-        <p className="text-center xl:text-[14px]">
+        <p className="text-center">
           that values improving people's lives through accessible design
         </p>
       </div>

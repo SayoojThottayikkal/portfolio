@@ -5,6 +5,7 @@
   src: local("Preahvihear Regular"),
     url("./fonts/Preahvihear-Regular.woff") format("woff");
 }
+
 body {
   font-family: "Preahvihear Regular";
   background-color: #120229;
