@@ -59,7 +59,7 @@ function Spotlight() {
         <h1 className="text-[35px] font-bold lg:text-[30px]">
           I'm a Software Engineer{" "}
         </h1>
-        <p className=" lg:text-[10px]">
+        <p className=" lg:text-[14px]">
           I am fresher , with a bachelor of engineering in computer science from
           the Anna University Chennai. Now I want to apply my skills and
           knowledge in a reputed company like yours. I believe that I would be a
