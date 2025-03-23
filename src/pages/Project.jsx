@@ -6,7 +6,7 @@ import project4 from "../images/project2.png";
 
 function Project() {
   return (
-    <div className="h-[200vh] flex flex-col justify-evenly align-middle bgimagegradient  ">
+    <div className="h-[150vh] flex flex-col justify-evenly align-middle bgimagegradient xl:h-[190vh] ">
       <div className=" flex justify-center align-middle p-[20px] xl:p-[60px]">
         <div className="w-[50%] z-[2]">
           <h5 className="text-[#a471e1] text-[20px] text-bold ">
@@ -24,14 +24,14 @@ function Project() {
             <img src={project} alt="" className="h-[20px]" />
           </span>
         </div>
-        <div className="bgimagegradient relative bgimagegradient left-[-5%] z-[1] ">
-          <img src={project4} alt="" className="rounded-t-[20px]" />
-          <img src={project2} alt="" className=" absolute top-[0]" />
+        <div className="bgimagegradient relative bgimagegradient left-[-5%] z-[1] xl:h-[100px] ">
+          <img src={project4} alt="" className="rounded-t-[20px] " />
+          <img src={project2} alt="" className=" absolute top-[0] " />
         </div>
       </div>
       {/* next */}
       <div className=" flex justify-center align-middle p-[20px] ">
-        <div className="bgimagegradient  bgimagegradient relative right-[-5%]   ">
+        <div className="bgimagegradient  bgimagegradient relative right-[-5%] xl:h-[100px]  ">
           <img src={project3} alt="" className="rounded-t-[20px] " />
         </div>
         <div className="w-[50%] z-[2] text-right ">

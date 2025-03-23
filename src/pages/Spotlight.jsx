@@ -7,15 +7,19 @@ import ellips from "../images/Ellipse5.png";
 
 function Spotlight() {
   return (
-    <div className="h-[100vh]   wrapper  ">
-      <div className="  flex flex-row  justify-center items-center ">
+    <div className="h-[100vh]   wrapper flex flex-col items-center justify-evenly ">
+      <div className=" p-4  flex flex-row  justify-center items-center  ">
         <motion.div
           initial={{ transform: "translateX(-900px)" }}
           animate={{ transform: "translateX(0px)" }}
           transition={{ type: "spring", duration: 3 }}
           className="   p-10  bgimg  flex align-middle  justify-center "
         >
-          <img className=" w-[100%]  block" src={myimg} alt="profile photo" />
+          <img
+            className=" block lg:h-[70%] lg:w-[70%]"
+            src={myimg}
+            alt="profile photo "
+          />
         </motion.div>
         <div className="flex flex-col  align-middle justify-center p-10   relative  ">
           <div className="flex  ">
@@ -33,7 +37,7 @@ function Spotlight() {
             initial={{ x: 900 }}
             animate={{ x: 0 }}
             transition={{ duration: 2, type: "spring" }}
-            className="font-bold text-[40px] w-[60%] "
+            className="font-bold text-[40px] w-[60%] lg:text-[30px]"
           >
             Judges a book by its{" "}
             <span className="text-[#a471e1] span relative p-[3px]">
@@ -46,14 +50,16 @@ function Spotlight() {
             </span>
             ...
           </motion.h1>
-          <p className="text-[10px] mt-2">
+          <p className="text-[10px] mt-2 ">
             Because if the cover does not impress you what else can?
           </p>
         </div>
       </div>
       <div className="text-center w-[50%] m-auto xl:w-[60%]">
-        <h1 className="text-[30px] font-bold ">I'm a Software Engineer </h1>
-        <p className=" ">
+        <h1 className="text-[35px] font-bold lg:text-[30px]">
+          I'm a Software Engineer{" "}
+        </h1>
+        <p className=" lg:text-[10px]">
           I am fresher , with a bachelor of engineering in computer science from
           the Anna University Chennai. Now I want to apply my skills and
           knowledge in a reputed company like yours. I believe that I would be a
