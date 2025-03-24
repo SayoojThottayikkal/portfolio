@@ -6,8 +6,8 @@ import vector5 from "../images/whatsapp (2).png";
 
 function Contact() {
   return (
-    <div className="h-screen p-[60px] flex flex-col justify-between">
-      <h1 className=" text-3xl md:text-5xl">Contact</h1>
+    <div className="md:h-screen p-[60px] flex flex-col justify-between">
+      <h1 className="mb-5 md:mt-0 text-3xl md:text-5xl">Contact</h1>
       <div className="flex flex-col gap-8">
         <p className="max-w-max md:w-3/4 ">
           I'm currently looking to join a cross-functional team that values

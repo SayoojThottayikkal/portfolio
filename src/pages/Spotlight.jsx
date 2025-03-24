@@ -7,16 +7,16 @@ import ellips from "../images/Ellipse5.png";
 
 function Spotlight() {
   return (
-    <div className="h-screen px-2 sm:px-0 flex flex-col items-center justify-evenly sm:p-4 ">
+    <div className="lg:h-screen px-2 sm:px-0 flex flex-col items-center justify-evenly sm:p-4 ">
       <div className=" flex flex-col  sm:flex-row items-center justify-center gap-0  ">
         <motion.div
           initial={{ transform: "translatey(-900px)" }}
           animate={{ transform: "translatey(0px)" }}
           transition={{ type: "spring", duration: 3 }}
-          className="   h-2/6 sm:h-full    sm:p-8  rounded-full flex justify-center "
+          className="   h-5/6 p-10 sm:h-full    sm:p-8  rounded-[50%] flex justify-center bg-gradient-to-t from-purple-990 via-purple-950 to-violet-980 "
         >
           <img
-            className="   block sm:h-3/4 lg:h-3/4 "
+            className=" block sm:h-3/4 lg:h-3/4 "
             src={myimg}
             alt="profile photo "
           />
@@ -58,7 +58,7 @@ function Spotlight() {
         </div>
       </div>
 
-      <div className="text-center mt-[-10%] lg:mt-0 w-full sm:w-4/5 lg:w-1/2">
+      <div className="text-center mt-5 lg:mt-0 w-full sm:w-4/5 lg:w-1/2">
         <h1 className="text-2xl lg:text-3xl text-red-700 font-bold">
           I'm a Software Engineer
         </h1>

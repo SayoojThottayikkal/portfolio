@@ -13,7 +13,7 @@ function Project() {
             Featured Project
           </h5>
           <h1 className="text-2xl font-semibold">Example Project</h1>
-          <p className=" p-4 bgprojectp relative w-full md:w-[98%] rounded-lg shadow-lg   ">
+          <p className=" p-4 bg-gradient-to-t from-purple-990 via-purple-950 to-violet-980 relative w-full md:w-[98%] rounded-lg shadow-lg   ">
             A web app for visualizing personalized Spotify data. View your top
             artists, top tracks, recently played tracks, and detailed audio
             information about each track. Create and save new playlists of
@@ -43,7 +43,7 @@ function Project() {
             Featured Project
           </h5>
           <h1 className="text-2xl font-semibold">Example Project</h1>
-          <p className="  p-4 bgprojectp relative w-full md:w-[98%] rounded-lg shadow-lg ">
+          <p className="  p-4 bg-gradient-to-t from-purple-990 via-purple-950 to-violet-980 relative w-full md:w-[98%] rounded-lg shadow-lg ">
             A web app for visualizing personalized Spotify data. View your top
             artists, top tracks, recently played tracks, and detailed audio
             information about each track. Create and save new playlists of
