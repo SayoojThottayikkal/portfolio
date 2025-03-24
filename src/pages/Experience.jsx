@@ -20,17 +20,21 @@ function Experience() {
     },
   ];
   return (
-    <div className=" h-[100vh]">
-      <h1 className="text-[40px] mb-[20px] p-10 ">Work Experience</h1>
-      <div className=" experience  flex justify-evenly flex-wrap ">
+    <div className=" min-h-screen flex flex-col items-center p-6">
+      <h1 className="text-3xl  md:text-4xl font-bold mb-6">Work Experience</h1>
+      <div className=" experience flex  flex-wrap  justify-center gap-6 w-full max-w-6xl ">
         {data.map((item) => (
-          <div className="flex shadow align-middle justify-between mb-[40px] w-[45%] p-[20px] rounded-[8px] ">
-            <div className="w-[30%] h-[100%] ">
-              <img className="w-[100%] block" src={item.pic} alt="" />
+          <div className=" shadow flex flex-col md:flex-row items-center  rounded-lg p-6 w-full md:w-[45%] ">
+            <div className="w-24 h-24 flex-shrink-0 mb-4 md:mb-0">
+              <img
+                className="w-full h-full object-contain"
+                src={item.pic}
+                alt=""
+              />
             </div>
-            <div className="m-auto">
-              <h3>CIB on the Mobile </h3>
-              <p className="text-[12px] mb-[10px] w-[80%]">
+            <div className="md:ml-6 text-center md:text-left">
+              <h3 className="text-lg font-semibold ">CIB on the Mobile </h3>
+              <p className="text-sm text-gray-600 mt-2 max-w-xs">
                 Take your client onboard seamlessly by our amazing tool of
                 digital onboard process.
               </p>
