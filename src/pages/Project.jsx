@@ -6,14 +6,14 @@ import project4 from "../images/project2.png";
 
 function Project() {
   return (
-    <div className="h-[200vh] flex flex-col justify-evenly align-middle bgimagegradient  ">
-      <div className=" flex justify-center align-middle p-[20px]">
+    <div className="h-[200vh] flex flex-col justify-evenly  bgimagegradient  ">
+      <div className=" flex justify-center p-5">
         <div className="w-[50%] z-[2]">
           <h5 className="text-[#a471e1] text-[20px] text-bold ">
             Featured Project
           </h5>
           <h1>Example Project</h1>
-          <p className="  p-[20px] bgprojectp relative  w-[98%]   ">
+          <p className=" p-5 bgprojectp relative  w-[98%]   ">
             A web app for visualizing personalized Spotify data. View your top
             artists, top tracks, recently played tracks, and detailed audio
             information about each track. Create and save new playlists of

@@ -47,9 +47,9 @@ function Skill() {
     },
   ];
   return (
-    <div className="h-[100vh] p-[20px] wrapper flex flex-col align-middle  ">
+    <div className="h-screen p-5 wrapper flex flex-col items-center  ">
       <div className="mb-10">
-        <h1 className="text-center text-[30px]   ">
+        <h1 className="text-center text-2xl sm:text-3xl   ">
           I'm currently looking to join&nbsp;
           <span className="text-[#a471e1] font-semibold ">
             cross-functional
@@ -61,7 +61,7 @@ function Skill() {
         </p>
       </div>
 
-      <div className="flex justify-center relative gap-[40px]">
+      <div className="flex gap-1 justify-center relative sm:gap-10">
         {imageData.map((item, index) => {
           const nodeStyles =
             {
@@ -75,7 +75,7 @@ function Skill() {
 
           return (
             <div className="relative" key={index}>
-              <div className="bg-[#251C31] w-[60px] h-[60px] flex justify-center items-center rounded-full mb-5">
+              <div className="bg-[#251C31]  w-12 h-14 sm:w-16 sm:h-16 flex justify-center items-center rounded-full mb-5">
                 <img src={item.image} alt="company image" />
               </div>
               <div className="absolute" style={nodeStyles}>
@@ -84,7 +84,7 @@ function Skill() {
             </div>
           );
         })}
-        <div className="absolute top-[-150px]">
+        <div className="absolute -top-34">
           <Global />
         </div>
       </div>
