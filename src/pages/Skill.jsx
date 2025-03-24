@@ -47,7 +47,7 @@ function Skill() {
     },
   ];
   return (
-    <div className="h-screen p-5 wrapper flex flex-col items-center  ">
+    <div className="min-h-screen p-5 wrapper flex flex-col items-center  ">
       <div className="mb-10">
         <h1 className="text-center text-2xl sm:text-3xl   ">
           I'm currently looking to join&nbsp;
