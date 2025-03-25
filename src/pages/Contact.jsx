@@ -46,7 +46,7 @@ function Contact() {
           <img src={vector4} alt="" />
         </a>
         <a
-          href="https://wa.me/6238268561"
+          href="https://wa.me/+916238268561"
           target="_blank"
           className="h-2.5 w-5"
         >
