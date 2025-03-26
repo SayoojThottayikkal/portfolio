@@ -12,7 +12,6 @@ function Home() {
       <Experience />
       <Skill />
       <Project />
-      <Contact />
     </>
   );
 }
