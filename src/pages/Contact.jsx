@@ -25,7 +25,7 @@ function Contact() {
           <a href="tel:+916238268561">+916238268561</a>
         </p>
       </div>
-      <div className=" flex flex-row justify-items-start gap-5 ">
+      <div className=" flex flex-row justify-items-start gap-5 mt-5 md:mt-0 ">
         <a href=" https://www.instagram.com/_sayooj_99 " target="_blank">
           {" "}
           <img src={vector2} alt="" />
