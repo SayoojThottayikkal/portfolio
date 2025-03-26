@@ -7,7 +7,7 @@ import ellips from "../images/Ellipse5.png";
 
 function Spotlight() {
   return (
-    <div className="lg:h-screen px-2 sm:px-0 flex flex-col items-center justify-evenly sm:p-4 ">
+    <div className="lg:h-screen px-2 sm:px-0 flex flex-col items-center justify-evenly sm:p-4 z-0 ">
       <div className=" flex flex-col  sm:flex-row items-center justify-center gap-0  ">
         <motion.div
           initial={{ transform: "translatey(-900px)" }}
@@ -59,7 +59,7 @@ function Spotlight() {
       </div>
 
       <div className="text-center mt-5 lg:mt-0 w-full sm:w-4/5 lg:w-1/2">
-        <h1 className="text-2xl lg:text-3xl text-red-700 font-bold">
+        <h1 className="text-2xl lg:text-3xl  font-bold">
           I'm a Software Engineer
         </h1>
         <p className="text-xs  md:text-sm lg:text-base mt-2 ">

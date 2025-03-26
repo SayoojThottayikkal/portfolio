@@ -34,7 +34,7 @@ function Project() {
         </div>
       </div>
       {/* next */}
-      <div className=" flex flex-col md:flex-row justify-center items-center p-6 w-full max-w-5xl">
+      <div className=" flex   flex-col-reverse   md:flex-row justify-center items-center p-6 w-full max-w-5xl">
         <div className="bgimagegradient  relative md:w-1/2 flex justify-center mt-6 md:mt-0   ">
           <img src={project3} alt="" className="rounded-t-lg shadow-lg" />
         </div>

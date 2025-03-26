@@ -39,7 +39,7 @@ function Header() {
         ☰
       </div>
       {option && (
-        <div className="absolute top-14 right-0 bg-[#1A0B2E] w-40 flex flex-col items-center text-white py-4 rounded-lg shadow-lg md:hidden">
+        <div className="absolute top-14 right-0 bg-[#1A0B2E] w-40 flex flex-col items-center text-white py-4 rounded-lg shadow-lg md:hidden z-1">
           <NavLink to="/" className="py-2" onClick={toggleMenu}>
             Home
           </NavLink>

@@ -19,6 +19,7 @@ function AppRoute() {
         <Route path="/skill" element={<Skill />} />
         <Route path="/experience" element={<Experience />} />
       </Routes>
+      <Contact />
     </>
   );
 }
