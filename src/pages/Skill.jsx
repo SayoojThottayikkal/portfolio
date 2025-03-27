@@ -47,7 +47,7 @@ function Skill() {
     },
   ];
   return (
-    <div className=" h-screen   sm:min-h-screen p-5 wrapper flex flex-col items-center  ">
+    <div className=" h-[88vh]   sm:min-h-screen p-5 wrapper flex flex-col items-center  ">
       <div className="mb-10">
         <h1 className="text-center text-2xl sm:text-3xl   ">
           I'm currently looking to join&nbsp;
@@ -84,7 +84,7 @@ function Skill() {
             </div>
           );
         })}
-        <div className=" h-[50%] absolute -top-34">
+        <div className="  absolute -top-34">
           <Global />
         </div>
       </div>

@@ -20,7 +20,7 @@ function Experience() {
     },
   ];
   return (
-    <div className=" xl:min-h-screen flex flex-col items-center p-6">
+    <div className="  xl:min-h-screen flex flex-col items-center p-6">
       <h1 className="text-3xl  md:text-4xl font-bold mb-6">Work Experience</h1>
       <div className=" experience flex  flex-wrap  justify-center gap-6 w-full max-w-6xl ">
         {data.map((item) => (
