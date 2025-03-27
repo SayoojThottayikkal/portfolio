@@ -4,7 +4,7 @@ export default function Global() {
   return (
     <svg
       width="100%"
-      height="754"
+      height="954"
       viewBox="0 0 895 754"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

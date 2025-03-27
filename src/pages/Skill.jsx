@@ -84,7 +84,7 @@ function Skill() {
             </div>
           );
         })}
-        <div className="absolute -top-34">
+        <div className=" h-[50%] absolute -top-34">
           <Global />
         </div>
       </div>
