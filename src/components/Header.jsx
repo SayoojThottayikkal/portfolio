@@ -28,9 +28,9 @@ function Header() {
         <NavLink to="/experience" className=" ">
           Experience
         </NavLink>
-        <NavLink to="/contact" className="">
+        {/* <NavLink to="/contact" className="">
           Contact
-        </NavLink>
+        </NavLink> */}
       </nav>
       <div
         className="md:hidden text-white text-2xl cursor-pointer "
@@ -52,9 +52,9 @@ function Header() {
           <NavLink to="/experience" className="py-2" onClick={toggleMenu}>
             Experience
           </NavLink>
-          <NavLink to="/contact" className="py-2" onClick={toggleMenu}>
+          {/* <NavLink to="/contact" className="py-2" onClick={toggleMenu}>
             Contact
-          </NavLink>
+          </NavLink> */}
         </div>
       )}
     </div>
