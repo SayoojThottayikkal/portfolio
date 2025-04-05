@@ -15,7 +15,6 @@ function Contact() {
           in mind? Let's connect.
         </p>
         <p>
-          {" "}
           <a className=" " href="mailto:sayoojt99@gmail.com">
             {" "}
             sayoojt99@gmail.com
