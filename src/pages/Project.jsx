@@ -34,16 +34,18 @@ function Project() {
         </div>
       </div>
       {/* next */}
-      <div className=" flex   flex-col-reverse   md:flex-row justify-center items-center p-6 w-full max-w-5xl">
+      <div className=" flex   flex-col-reverse   md:flex-row justify-center items-center p-6 w-full max-w-5xl ">
         <div className="bgimagegradient  relative md:w-1/2 flex justify-center mt-6 md:mt-0   ">
           <img src={project3} alt="" className="rounded-t-lg shadow-lg" />
         </div>
         <div className="md:w-1/2 z-10 text-center md:text-left ">
-          <h5 className="text-[#a471e1] text-lg font-bold ">
+          <h5 className="text-[#a471e1] text-lg font-bold lg:text-right ">
             Featured Project
           </h5>
-          <h1 className="text-2xl font-semibold">Example Project</h1>
-          <p className="  p-4 bg-gradient-to-t from-purple-990 via-purple-950 to-violet-980 relative w-full md:w-[98%] rounded-lg shadow-lg ">
+          <h1 className="text-2xl font-semibold lg:text-right">
+            Example Project
+          </h1>
+          <p className=" lg:text-right  p-4 bg-gradient-to-t from-purple-990 via-purple-950 to-violet-980 relative w-full md:w-[98%] rounded-lg shadow-lg ">
             A web app for visualizing personalized Spotify data. View your top
             artists, top tracks, recently played tracks, and detailed audio
             information about each track. Create and save new playlists of

@@ -84,7 +84,7 @@ function Skill() {
             </div>
           );
         })}
-        <div className="absolute -top-20 sm:-top-34">
+        <div className="absolute -top-20 sm:-top-34 inline-block">
           <Global />
         </div>
       </div>

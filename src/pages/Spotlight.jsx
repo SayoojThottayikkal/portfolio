@@ -10,7 +10,7 @@ function Spotlight() {
     <div className="lg:h-screen px-2 sm:px-0 flex flex-col items-center justify-evenly sm:p-4 z-0 ">
       <div className=" flex flex-col  sm:flex-row items-center justify-center gap-0  ">
         <motion.div
-          initial={{ transform: "translatey(-900px)" }}
+          initial={{ transform: "translatey(-900px) " }}
           animate={{ transform: "translatey(0px)" }}
           transition={{ type: "spring", duration: 3 }}
           className="   h-5/6 p-10 sm:h-full    sm:p-8  rounded-[50%] flex justify-center bg-gradient-to-t from-purple-990 via-purple-950 to-violet-980 "
