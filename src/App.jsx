@@ -3,6 +3,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import { BrowserRouter } from "react-router-dom";
 import AppRoute from "./routing/AppRoute";
+import BubbleCursorEffect from "./components/BubbleCursorEffect";
 import "./App.css";
 const App = () => {
   const [init, setInit] = useState(false);
@@ -112,6 +113,7 @@ const App = () => {
         }}
       />
 
+      <BubbleCursorEffect />
       <div className="z-1 relative">
         <BrowserRouter>
           <AppRoute />
