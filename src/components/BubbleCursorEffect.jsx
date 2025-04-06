@@ -3,14 +3,14 @@ import { bubbleCursor } from "../components/utils/bubbleCursor";
 
 const BubbleCursorEffect = () => {
   useEffect(() => {
-    const cursor = bubbleCursor(); // Full body use, no options needed
+    const cursor = bubbleCursor();
 
     return () => {
-      cursor.destroy(); // Clean up on unmount
+      cursor.destroy();
     };
   }, []);
 
-  return null; // It just adds a canvas directly to <body>
+  return null;
 };
 
 export default BubbleCursorEffect;

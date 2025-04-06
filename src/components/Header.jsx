@@ -11,7 +11,7 @@ function Header() {
   };
 
   return (
-    <div className="bg-[#1A0B2E] h-auto flex items-center justify-between md:justify-around px-6 py-3 ">
+    <div className=" h-auto flex items-center justify-between md:justify-around px-6 py-3 ">
       <div className="h-10 w-10 flex items-center">
         <img src={logo} alt="Logo" className="h-full w-full object-contain" />
       </div>
