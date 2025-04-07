@@ -166,8 +166,8 @@ export function bubbleCursor(options) {
       const scale =
         0.2 + (this.initialLifeSpan - this.lifeSpan) / this.initialLifeSpan;
 
-      context.fillStyle = "	#909090";
-      context.strokeStyle = "	#909090";
+      context.fillStyle = "#6666ff";
+      context.strokeStyle = "#6666ff";
       context.beginPath();
       context.arc(
         this.position.x - (this.baseDimension / 2) * scale,
