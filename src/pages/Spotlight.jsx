@@ -63,10 +63,13 @@ function Spotlight() {
           I'm a Software Engineer
         </h1>
         <p className="text-xs  md:text-sm lg:text-base mt-2 ">
-          I am a fresher with a Bachelor of Engineering in Computer Science from
-          Anna University Chennai. Now I want to apply my skills and knowledge
-          in a reputed company like yours. I believe that I would be a valuable
-          asset to your organization.
+          Passionate and self-driven front-end developer with 3 years of
+          freelance experience crafting responsive, user-centric web
+          applications. Skilled in HTML, CSS, JavaScript, React.js, Tailwind
+          CSS, Vite, and Material UI. Strong at translating design mockups into
+          performant, scalable interfaces. Adept at client communication,
+          problem-solving, and delivering production-ready solutions with a
+          focus on performance and accessibility.
         </p>
       </div>
     </div>
