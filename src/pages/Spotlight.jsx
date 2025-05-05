@@ -58,15 +58,18 @@ function Spotlight() {
         </div>
       </div>
 
-      <div className="text-center mt-5 lg:mt-0 w-full sm:w-4/5 lg:w-1/2">
+      <div className="text-center mt-5 lg:mt-0  w-full sm:w-4/5 lg:w-[80%]">
         <h1 className="text-2xl lg:text-3xl  font-bold">
           I'm a Software Engineer
         </h1>
         <p className="text-xs  md:text-sm lg:text-base mt-2 ">
-          I am a fresher with a Bachelor of Engineering in Computer Science from
-          Anna University Chennai. Now I want to apply my skills and knowledge
-          in a reputed company like yours. I believe that I would be a valuable
-          asset to your organization.
+          Passionate and self-driven front-end developer with 3 years of
+          hands-on freelance experience building responsive and user-centric web
+          applications. Proficient in modern technologies including HTML, CSS,
+          JavaScript, Tailwind CSS, React.js, Vite, and Material UI. Adept at
+          translating design mockups into high performance, scalable interfaces.
+          Eager to bring strong problem-solving skills and creativity into a
+          full-time development role.
         </p>
       </div>
     </div>

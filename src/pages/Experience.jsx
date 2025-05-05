@@ -10,25 +10,25 @@ function Experience() {
       pic: img1,
       title: "Restaurant Website",
       description:
-        "Developed a responsive website for a local restaurant with an online menu and reservation system. Focused on clean UI and mobile-friendly design using React and Tailwind CSS.",
+        "Designed and developed a personal portfolio showcasing freelance projects, skills, and contact information.Mobile-responsive with smooth navigation and minimal design focus",
     },
     {
       pic: img2,
-      title: "E-commerce Product Showcase",
+      title: "Spa Business Website",
       description:
         "Built a product showcase page for a small business to display their handmade products. Integrated animations and a contact form using React and Framer Motion.",
     },
     {
       pic: img3,
-      title: "Portfolio Website for a Designer",
+      title: "Hypermarket Sales Dashboard",
       description:
-        "Created a personal portfolio website for a graphic designer to display their work and accept inquiries. Implemented smooth navigation and gallery features with Next.js.",
+        "Developed a responsive, SEO-friendly website for a local spa business. Included booking form, service listings, and a gallery",
     },
     {
       pic: img,
-      title: "NGO Event Landing Page",
+      title: "Study Abroad Consultancy Website",
       description:
-        "Designed and developed a landing page for an NGO's fundraising event. Focused on fast loading, accessibility, and donation CTA using HTML, CSS, and JavaScript.",
+        "Created a multi-page site highlighting services, student success stories, and inquiry form integration",
     },
   ];
 
